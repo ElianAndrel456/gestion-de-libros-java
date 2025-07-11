@@ -5,6 +5,7 @@ public class Libro {
   private String autor;
   private String genero;
   private int anioPublicacion;
+  private boolean disponible = true;
 
   public Libro(String isbn, String titulo, String autor, String genero, int anioPublicacion) {
     this.isbn = isbn;
@@ -53,6 +54,9 @@ public class Libro {
   public void setAnioPublicacion(int anioPublicacion) {
     this.anioPublicacion = anioPublicacion;
   }
+
+  public boolean isDisponible() { return disponible; }
+  public void setDisponible(boolean disponible) { this.disponible = disponible; }
 
   @Override
   public String toString() {
