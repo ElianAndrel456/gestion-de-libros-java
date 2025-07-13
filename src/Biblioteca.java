@@ -35,8 +35,8 @@ public class Biblioteca {
         return repositorio.listarLibro();
     }
 
-    public void imprimirLibrosPorAutor(String autor) {
-        generadorReporte.imprimirLibrosPorAutor(autor);
+    public String imprimirLibrosPorAutor(LibroFiltro filtro) {
+        return  generadorReporte.imprimirLibrosPorAutor(filtro);
     }
 
 }
