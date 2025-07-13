@@ -1,4 +1,4 @@
 - Clase `Libro` implementada por [Elian joyo Villanueva](https://github.com/ElianAndrel456)
 - Clase `ArrayLibro` y `ArrayListaLibro` implementada por [Jhon Nicolas Pacheco](https://github.com/Jhon-NPC)
 - Clases `Biblioteca`, `GeneradorReporte`, `GestorPrestamos` y pruebas en `Main` implementadas por [Michael Gamarra Hinostroza](https://github.com/MichaelGamarraH)
-- Clase `AutorLibroFiltro` e interfaz `LibroFiltro` implementadas por [José Linares](https://github.com/Joselinares17)
+- Clases `AutorLibroFiltro`, `GeneroLibroFiltro` e interfaz `LibroFiltro` implementadas por [José Linares](https://github.com/Joselinares17)
