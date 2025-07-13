@@ -26,11 +26,13 @@ public class App {
             biblioteca.imprimirReporte();
 
             // Reporte por autor
-            System.out.println(biblioteca.imprimirLibrosPorAutor(new AutorLibroFiltro("Juan Pérez")));;
-            System.out.println(biblioteca.imprimirLibrosPorAutor(new AutorLibroFiltro("Ana Torres")));;
+            System.out.println(biblioteca.imprimirLibrosPorFiltro(new AutorLibroFiltro("Juan Pérez")));;
+            System.out.println(biblioteca.imprimirLibrosPorFiltro(new AutorLibroFiltro("Ana Torres")));;
 
             // Autor sin libros
-            System.out.println(biblioteca.imprimirLibrosPorAutor(new AutorLibroFiltro("Autor Desconocido")));;
+            System.out.println(biblioteca.imprimirLibrosPorFiltro(new AutorLibroFiltro("Autor Desconocido")) + "\n");
+
+            System.out.println(biblioteca.imprimirLibrosPorFiltro(new GeneroLibroFiltro("Programación")));
 
         } catch (ExcepcionBiblioteca e) {
             System.out.println("Error: " + e.getMessage());

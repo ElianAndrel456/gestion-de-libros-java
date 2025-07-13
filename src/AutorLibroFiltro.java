@@ -1,4 +1,5 @@
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class AutorLibroFiltro implements LibroFiltro{
     private String autor;
@@ -11,7 +12,7 @@ public class AutorLibroFiltro implements LibroFiltro{
     public List<Libro> filter(List<Libro> Libros) {
         return Libros.stream()
                 .filter(b -> b.getAutor().equals(this.autor))
-                .toList();
+                .collect(Collectors.toList());
     }
 
     @Override
