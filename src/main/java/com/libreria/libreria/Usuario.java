@@ -1,10 +1,13 @@
+package com.libreria.libreria;
+
 public class Usuario {
     private Long id;
     private String nombre;
     private String email;
     private String password;
 
-    public Usuario() {}
+    public Usuario() {
+    }
 
     public Usuario(Long id, String nombre, String email, String password) {
         this.id = id;

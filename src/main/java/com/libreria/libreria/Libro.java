@@ -1,3 +1,4 @@
+package com.libreria.libreria;
 
 public class Libro {
   private String isbn;
@@ -55,8 +56,13 @@ public class Libro {
     this.anioPublicacion = anioPublicacion;
   }
 
-  public boolean isDisponible() { return disponible; }
-  public void setDisponible(boolean disponible) { this.disponible = disponible; }
+  public boolean isDisponible() {
+    return disponible;
+  }
+
+  public void setDisponible(boolean disponible) {
+    this.disponible = disponible;
+  }
 
   @Override
   public String toString() {

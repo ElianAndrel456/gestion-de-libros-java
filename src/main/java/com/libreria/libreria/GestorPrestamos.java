@@ -1,3 +1,5 @@
+package com.libreria.libreria;
+
 public class GestorPrestamos {
     private RepositorioMetodosLibro repositorio;
 
@@ -7,7 +9,8 @@ public class GestorPrestamos {
 
     public void prestarLibro(String isbn) throws ExcepcionBiblioteca {
         Libro libro = repositorio.buscarLibro(isbn);
-        if (!libro.isDisponible()) throw new ExcepcionBiblioteca("Libro ya prestado");
+        if (!libro.isDisponible())
+            throw new ExcepcionBiblioteca("Libro ya prestado");
         libro.setDisponible(false);
     }
 

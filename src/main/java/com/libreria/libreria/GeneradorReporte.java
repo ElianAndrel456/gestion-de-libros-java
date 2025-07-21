@@ -1,3 +1,5 @@
+package com.libreria.libreria;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -26,7 +28,8 @@ public class GeneradorReporte {
             System.out.println("No se encontraron libros del autor especificado.");
         } else {
             for (Libro l : librosPorAutor) {
-                System.out.printf("- %s (%d)%s\n", l.getTitulo(), l.getAnioPublicacion(), l.isDisponible() ? " [Disponible]" : " [Prestado]");
+                System.out.printf("- %s (%d)%s\n", l.getTitulo(), l.getAnioPublicacion(),
+                        l.isDisponible() ? " [Disponible]" : " [Prestado]");
             }
         }
     }
