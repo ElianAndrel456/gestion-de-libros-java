@@ -2,6 +2,8 @@ package com.libreria.libreria;
 
 import java.util.List;
 
+import com.libreria.libreria.models.Libro;
+
 public class Biblioteca {
     private RepositorioMetodosLibro repositorio;
     private GestorPrestamos gestorPrestamos;

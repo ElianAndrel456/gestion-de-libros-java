@@ -2,6 +2,7 @@ package com.libreria.libreria;
 
 import java.util.List;
 import java.util.stream.Collectors;
+import com.libreria.libreria.models.Libro;
 
 public class GeneradorReporte {
     private RepositorioMetodosLibro repositorio;

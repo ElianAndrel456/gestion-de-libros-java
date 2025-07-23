@@ -3,6 +3,8 @@ package com.libreria.libreria;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.libreria.libreria.models.Libro;
+
 class ArrayListaLibroRepositorio implements RepositorioMetodosLibro {
     private List<Libro> libros = new ArrayList<>();
 
