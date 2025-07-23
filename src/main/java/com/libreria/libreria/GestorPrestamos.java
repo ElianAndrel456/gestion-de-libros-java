@@ -1,5 +1,7 @@
 package com.libreria.libreria;
 
+import com.libreria.libreria.models.Libro;
+
 public class GestorPrestamos {
     private RepositorioMetodosLibro repositorio;
 

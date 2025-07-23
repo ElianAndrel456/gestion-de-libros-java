@@ -2,6 +2,7 @@ package com.libreria.libreria;
 
 import java.util.ArrayList;
 import java.util.List;
+import com.libreria.libreria.models.Libro;
 
 class ArrayLibroRepositorio implements RepositorioMetodosLibro {
     private Libro[] libros;

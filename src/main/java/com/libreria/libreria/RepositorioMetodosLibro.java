@@ -2,6 +2,8 @@ package com.libreria.libreria;
 
 import java.util.List;
 
+import com.libreria.libreria.models.Libro;
+
 //Creación de una interfaz
 interface RepositorioMetodosLibro {
     void agregarLibro(Libro libro) throws ExcepcionBiblioteca;
